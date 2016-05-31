@@ -2,7 +2,7 @@
   <name>ContractorSystem</name>
   <description>ContractorSystem</description>
   <author href="http://www.ContractorSystem.com" email="support@phonegap.com">Fix It Fellas</author>
-  <content src="index.html"/>
+  <content src="www/index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
