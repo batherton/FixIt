@@ -61,7 +61,7 @@ function Flashlight(){
 	  } else {
 	    alert("Flashlight not available on this device");
 	  }
-});
+	});
 
 
-}
+};
