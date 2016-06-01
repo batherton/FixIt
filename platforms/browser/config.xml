@@ -3,7 +3,7 @@
     <name>ContractorSystem</name>
     <description>ContractorSystem</description>
     <author email="support@phonegap.com" href="http://www.ContractorSystem.com">Fix It Fellas</author>
-    <content src="index.html" />
+    <content src="www/index.html" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />

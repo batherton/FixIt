@@ -329,6 +329,12 @@ background-size: auto 40%;
 background-repeat: no-repeat;
 background-position: 50% 35px;
 }
+.timeclck-icon a{
+background:url(images/icons/turquoise/timeclck.png);
+background-size: auto 40%;
+background-repeat: no-repeat;
+background-position: 50% 35px;
+}
 .blog-icon a{
 background:url(images/icons/turquoise/blog.png);
 background-size: auto 40%;
