@@ -21,13 +21,24 @@ var app = {
     initialize: function() {
         this.bindEvents();
     },
+
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.addEventListener("offline", onOffline, false);
+        document.addEventListener("online", onOnline, false);
     },
+    	onOffline: function(){
+			document.getElementById('NetworkConnectionType').innerHTML = "No network connection";
+
+		},
+		onOnline: function(){
+				document.getElementById('NetworkConnectionType').innerHTML = "Online";
+
+	},
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
